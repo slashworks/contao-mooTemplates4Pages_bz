@@ -49,7 +49,7 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['pageResMoo'] = array
     'exclude'                 => true,
     'inputType'               => 'checkboxWizard',
     'options_callback'        => array('bepageAddMooTpl_bz', 'getMooTemplates'),
-    'eval'                    => array('multiple'=>true, 'tl_class'=>'w50')
+	'eval'                    => array('multiple'=>true, 'tl_class'=>'clr long')
 );
 
 class bepageAddMooTpl_bz extends Backend
